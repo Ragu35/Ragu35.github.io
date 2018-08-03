@@ -73,7 +73,7 @@ label{
 }
 
 .account-group{
-	display: inline-flex;
+	display: inline-block;
 	vertical-align: top;
 }
 

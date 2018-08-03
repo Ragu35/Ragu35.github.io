@@ -55,7 +55,8 @@
         </div>
       </div>
 
-        <div class="tweet-content" ng-bind="_tweet">          
+        <div class="tweet-content" ng-bind="_tweet">
+          <p>{{_tweet}}</p>        
         </div>
 
         <div class="tweet-date-time">
@@ -91,7 +92,7 @@
   
       <form>
         <div class="form-group">
-          <label for="tweet">Tweet:</label>
+          <label for="tweet">Tweet: </label>
           <textarea class="form-control" ng-model="_tweet" rows="5" id="entry_tweet" maxlength="280" placeholder="What did Trump tweet?"></textarea>
         </div>
         <div class="form-group">
@@ -107,7 +108,7 @@
            <input type="number" ng-model="_rt" name='entry_rt' class="form-control" id="entry_rt" min="1" max="9999999" placeholder="# of retweets">
         </div>
         <div class="form-group">
-          <label for="date">Likes </label>
+          <label for="date">Likes: </label>
            <input type="number" ng-model="_likes" name='entry_likes' class="form-control" id="entry_likes" min="1" max="9999999" placeholder="# of likes">
         </div>
         <button id="download-tweet" class="btn btn-twitter">Save Tweet</button>
