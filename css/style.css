@@ -5,6 +5,7 @@ body{
 .site-container{
 	max-width: 640px;
 	margin: 0 auto;
+	width: 100%;
 }
 
 h2{
@@ -29,6 +30,7 @@ h2{
 form{
 	margin: 50px auto;
 	max-width: 640px;
+	width: 100%;
 }
 
 label{
@@ -50,6 +52,7 @@ label{
 	margin: 0 auto;
 	max-width: 640px;
 	background: #fff;
+	width: 100%;
 }
 
 .profile-info{
