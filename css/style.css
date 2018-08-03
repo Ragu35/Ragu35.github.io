@@ -122,6 +122,10 @@ label{
 	font-size: 14px;
 }
 
+.rt-label, .likes-label{
+	display: inline;
+}
+
 .tweet-date-time{
 	margin-top: 10px;
 }
