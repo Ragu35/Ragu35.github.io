@@ -22,4 +22,7 @@
 	.tweet-container{
 		padding: 20px;
 	}
+	.rt-group{
+		display: none;
+	}
 }
