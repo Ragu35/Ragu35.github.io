@@ -1,0 +1,173 @@
+body{
+	background: #e6ecf0;
+}
+
+.site-container{
+	max-width: 640px;
+	margin: 0 auto;
+}
+
+h2{
+	color: red;
+	margin-bottom: 40px;
+	font-size: 20px;
+}
+
+.title, .bird-container{
+	display: inline-block;
+}
+
+.bird-container{
+	float: right;
+}
+
+.trump-bird{
+	height: 85px;
+	width: auto;
+}
+
+form{
+	margin: 50px auto;
+	max-width: 640px;
+}
+
+label{
+	margin-bottom: 1px;
+	font-weight: bold;
+}
+
+.btn-twitter{
+	background: #48AAE6;
+	color: #fff;
+	font-weight: bold;
+	border-radius: 100px;
+}
+
+.tweet-container{
+	padding: 30px 40px;
+	border-radius: 8px;
+	border: 1px solid rgba(0, 0, 0, 0.1); 
+	margin: 0 auto;
+	max-width: 640px;
+	background: #fff;
+}
+
+.profile-info{
+	margin-bottom: 15px;
+}
+
+.profile-img{
+	height: 48px;
+	width: 48px;
+	border-radius: 50%;
+	display: inline-flex;
+	margin-right: 5px;
+}
+
+.account-group{
+	display: inline-flex;
+	vertical-align: top;
+}
+
+.FullNameGroup{
+	line-height: 1.3;
+}
+
+.fullname{
+	font-size: 18px;
+	font-weight: bold;
+}
+
+.follow-div{
+	display: inline-flex;
+    float: right;
+}
+
+.follow{
+	border: 1px solid #1B95E0;
+	border-radius: 100px;
+	font-weight: bold;
+	color: #1B95E0;
+	background: #fff;
+	width: 105px;
+	height: 36px;
+	transition: .2s ease;
+}
+
+.follow:hover{
+	background: #1B95E0;
+	color: #fff;
+	cursor: pointer;
+}
+
+.chevron{
+	float: right;
+}
+
+.fas{
+	color: #657786;
+    padding: 9px 13px;
+}
+
+.handle, .date, .time, .rt-label, .likes-label{
+	color: #657786;
+	font-size: 14px;
+}
+
+.tweet-date-time{
+	margin-top: 10px;
+}
+
+.time{
+	text-transform: uppercase;
+}
+
+.tweet-content{
+	font-size: 27px;
+    line-height: 32px;
+    letter-spacing: .01em;
+}
+
+.stats {
+    margin-top: 10px;
+    border-bottom: 1px solid #e6ecf0;
+    border-top: 1px solid #e6ecf0;
+    width: 100%;
+    padding: 12px 0;
+}
+
+.rt-count{
+	color: #14171a;
+    display: inline;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 20px;
+}
+
+.likes-count{
+	color: #14171a;
+    display: inline;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 20px;
+}
+
+.retweets{
+	margin-right: 10px;
+}
+
+.retweets, .likes{
+	display: inline;
+}
+
+.tweet-box{
+	max-width: 640px;
+	width: 100%;
+	margin: 0 auto;
+	height: 400px;
+}
+
+canvas{
+	max-width: 100%;
+	max-height: 100%;
+}

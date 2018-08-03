@@ -1,0 +1,25 @@
+@media only screen and (max-width: 639px){
+	.bird-container{
+		float: none;
+	    display: block;
+	    text-align: center;
+	    margin-bottom: 15px;
+	}
+	.title{
+		display: block;
+    	text-align: center;
+	}
+	.site-container{
+		padding: 0 10px;
+	}
+	.fullname{
+		font-weight: normal;
+		font-size: 16px;
+	}
+	.follow-div{
+		display: none;
+	}
+	.tweet-container{
+		padding: 20px;
+	}
+}
