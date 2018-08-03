@@ -3,7 +3,8 @@
   <head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Create your very own Trump Tweet! Generate a Donald Trump Tweet and share with your friends on Facebook and Twitter">
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
@@ -15,7 +16,7 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
 
-    <title>Trump Tweets | Create a Trump Tweet</title>
+    <title>Trump Tweets | Make a Trump Tweet</title>
   </head>
   <body>
 
@@ -72,8 +73,19 @@
             <span class="likes-count">{{_likes | number}}</span>
             <span class="likes-label">Likes</span>
           </div>
-          
+          <div class="rt-group">
+            <img class="rt-picture" src="images/maga-pepe.jpg">
+            <img class="rt-picture" src="images/eric.jpg">
+            <img class="rt-picture" src="images/mcconnell.jpg">
+            <img class="rt-picture" src="images/ryan.jpg">
+            <img class="rt-picture" src="images/putin.jpg">
+            <img class="rt-picture" src="images/gop.jpg">
+            <img class="rt-picture" src="images/fox.jpg">
+            <img class="rt-picture" src="images/pepe.jpg">
+            <img class="rt-picture" src="images/russia.png">
+          </div>
         </div>
+        
 
       </div>
   
@@ -92,7 +104,7 @@
         </div>
         <div class="form-group">
           <label for="date">Retweets: </label>
-           <input type="number" ng-model="_rt" name='entry_rt' class="form-control" id="entry_rt" min="1" max="99999999" placeholder="# of retweets">
+           <input type="number" ng-model="_rt" name='entry_rt' class="form-control" id="entry_rt" min="1" max="9999999" placeholder="# of retweets">
         </div>
         <div class="form-group">
           <label for="date">Likes </label>
